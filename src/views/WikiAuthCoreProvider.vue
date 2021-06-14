@@ -21,7 +21,7 @@
       "type": "digest"
     }
     </code></pre>
-        <p><codes>doubledigest</codes> - хеширует пароль выбранным алгоритмом дважды. <codes>toHexMode</codes> перед вторым раундом хеширования переведет хеш в HEX формат. Поддерживаются любые алгоритмы, реализованные в Java или BouncyCastle</p>
+        <p><codes>doubleDigest</codes> - хеширует пароль выбранным алгоритмом дважды. <codes>toHexMode</codes> перед вторым раундом хеширования переведет хеш в HEX формат. Поддерживаются любые алгоритмы, реализованные в Java или BouncyCastle</p>
         <pre v-highlightjs><code class="json">
     "passwordVerifier": {
       "algo": "SHA256",
